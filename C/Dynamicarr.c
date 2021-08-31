@@ -4,10 +4,9 @@
 #include <stdlib.h>
 //This stores the total number of books in each shelf.
 int* total_number_of_books;
-
 //This stores the total number of pages in each book of each shelf.
-//The rows represent the shelves and the columns represent the books.
 int** total_number_of_pages;
+//The rows represent the shelves and the columns represent the books.
 
 int main()
 {
@@ -26,8 +25,7 @@ int main()
             //Process the query of first type here.
             int x, y;
             scanf("%d %d", &x, &y);
-            printf("%d\n %d", y, x);
-          } 
+          }
         else if(type_of_query == 2)
           {
             int x, y;
