@@ -2,7 +2,9 @@
 #Finding the percentage
 num=int(input())
 for i in range(0,num):
-    diction.key[i]=string(input())
-    diction.value+input(diction.value[i])
+    key=input()
+    for i in range(0,3):
+        value=int(input())
+    diction[i].key=key
 print(diction.keys())
 print(diction.values())
