@@ -1,10 +1,16 @@
 #HackerRank Problem
 #Finding the percentage
 num=int(input())
+diction={}
 for i in range(0,num):
+    marks=[]
     key=input()
-    for i in range(0,3):
-        value=int(input())
-    diction[i].key=key
-print(diction.keys())
-print(diction.values())
+    #for j in range(0,3):
+    marks=list(input())
+    value=marks
+    #marks=[]
+    #for j in range(0,3):
+        #marks[i]=int(input())
+    #diction[key]=marks
+    diction.update({key: value})
+print(diction)
