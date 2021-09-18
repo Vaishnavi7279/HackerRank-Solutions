@@ -8,9 +8,6 @@ for i in range(0,num):
     #for j in range(0,3):
     marks=list(input())
     value=marks
-    #marks=[]
-    #for j in range(0,3):
-        #marks[i]=int(input())
-    #diction[key]=marks
+
     diction.update({key: value})
 print(diction)
